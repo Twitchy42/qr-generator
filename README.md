@@ -11,5 +11,5 @@ This program uses ZXing, Apache PDFBox, and imgscalr as dependencies.
 The intent is to use this with a custom android app that will scan these codes and update a database for certain actions - when a bottle is brought in, how many tokens it's worth, when it's emptied, etc. This app has not yet been developed.
 
 There are some improvements that need to be done here: 
-1. Though the jar is runnable, it needs to be invoked from the command line with java -jar QRCodeGenerator3.jar. If it's not, then the PDFs don't get generated.
-2. The program generates a PDF and a preview image jpeg that get written to the local path. Ideally these should be fully self-contained or at least disposed of on close.
+  1. Though the jar is runnable, it needs to be invoked from the command line with java -jar QRCodeGenerator3.jar. If it's not, then the PDFs don't get generated.
+  2. The program generates a PDF and a preview image jpeg that get written to the local path. Ideally these should be fully self-contained or at least disposed of on close.
